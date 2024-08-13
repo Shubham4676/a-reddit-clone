@@ -17,7 +17,8 @@ pipeline {
         stage('clean workspace') {
             steps {
                 cleanWs()
-        }
+	    } 
+	}
 	stage('Checkout from Git') {
             steps {
                 git branch: 'main', url: 'https://github.com/Shubham4676/a-reddit-clone.git'
@@ -53,29 +54,3 @@ pipeline {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	

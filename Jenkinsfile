@@ -85,7 +85,7 @@ pipeline {
                body: "Project: ${env.JOB_NAME}<br/>" +
                    "Build Number: ${env.BUILD_NUMBER}<br/>" +
                    "URL: ${env.BUILD_URL}<br/>",
-               to: 'suhasnaik1207@gmail.com',                              
+               to: 'meghraj4467@gmail.com',                              
                attachmentsPattern: 'trivyfs.txt,trivyimage.txt'
         }
      }

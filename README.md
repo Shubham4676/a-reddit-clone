@@ -1,5 +1,5 @@
 # Reddit Clone App on Kubernetes
-test 100
+test 200
 
 
 
